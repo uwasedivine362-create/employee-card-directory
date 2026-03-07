@@ -1,0 +1,27 @@
+# Employee Directory React App
+
+This project is a React application that fetches employee data from a public API and displays it in responsive employee cards.
+
+## Features
+
+- Fetch employee data from API
+- Display employee cards
+- Search employees by name or email
+- Responsive design
+- Print employee cards
+
+## Technologies
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## API
+
+https://jsonplaceholder.typicode.com/users
+
+## Run Project
+
+npm install
+npm run dev
