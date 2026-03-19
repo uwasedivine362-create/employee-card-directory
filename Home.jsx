@@ -18,7 +18,7 @@ const Home = () => {
         const data = await response.json();
         setEmployees(data);
       } catch {
-        setError("Failed to load employees");
+        setError("Failed to load employees ");
       } finally {
         setLoading(false);
       }
