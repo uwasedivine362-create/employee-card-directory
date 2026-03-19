@@ -40,7 +40,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>Employee Directory</h1>
+      <h1>Employee Cards</h1>
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       <div className="card-container">
@@ -49,9 +49,9 @@ const Home = () => {
         ))}
       </div>
 
-      {filteredEmployees.length === 0 && <p>No employees found.</p>}
+      {filteredEmployees.length === 0 && <p>No employee info found in the database.</p>}
 
-      <button onClick={() => window.print()}>Print Employee Cards</button>
+      <button onClick={() => window.print()}>Printing Employee Cards</button>
     </div>
   );
 };
