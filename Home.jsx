@@ -51,7 +51,7 @@ const Home = () => {
 
       {filteredEmployees.length === 0 && <p>No employee info found in the database.</p>}
 
-      <button onClick={() => window.print()}>Printing Employee Cards</button>
+      <button onClick={() => window.print()}>Print Employee Cards</button>
     </div>
   );
 };
